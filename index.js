@@ -3,8 +3,8 @@ import path from "path";
 import ffmpeg from "fluent-ffmpeg";
 import cliProgress from "cli-progress";
 
-const inputFolder = "../../Musics/Country";
-const outputFolder = "../../Musics/Country/mp3s";
+const inputFolder = "../../Musics/Country"; // Change this to the input folder
+const outputFolder = "../../Musics/Country/mp3s"; // Change this to the output folder
 
 if (!fs.existsSync(outputFolder)) fs.mkdirSync(outputFolder);
 
