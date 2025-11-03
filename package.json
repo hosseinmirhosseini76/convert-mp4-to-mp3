@@ -1,0 +1,15 @@
+{
+  "name": "convert-mp4-to-mp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "S.Hossein Mirhosseini",
+  "license": "MIT",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
